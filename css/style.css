@@ -17,11 +17,11 @@ body{
 /* header start */
 header{
     padding: 30px 0;
-    border: 1px solid;
+    /* border: 1px solid; */
 }
 .container{
     width: 90%;
-    border: 1px solid;
+    /* border: 1px solid; */
     margin: 0 auto;
     overflow: hidden;
 }
@@ -37,7 +37,7 @@ header{
 }
 .menu{
     width: 65%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     float: right;
 }
 .menu ul{
@@ -77,7 +77,7 @@ header{
 }
 .container2{
     width: 80%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0 auto;
 }
 .g_content{}
@@ -122,7 +122,7 @@ header{
 .s_form{
     position: relative;
     width: 400px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0 auto;
 }
 .s_form input{
