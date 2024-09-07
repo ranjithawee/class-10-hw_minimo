@@ -1,0 +1,155 @@
+/* fonts links */
+@font-face {
+    font-family: playfairDisplay-regular;
+    src: url(../fonts/Playfair_Display/playfairDisplay-regular.ttf);
+}
+@font-face {
+    font-family: ;
+    src: url(../fonts/Ubuntu/ubuntu-light.ttf);
+}
+body{
+    margin: 0;
+    font-family: playfairDisplay-regular;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+}
+/* header start */
+header{
+    padding: 30px 0;
+    border: 1px solid;
+}
+.container{
+    width: 90%;
+    border: 1px solid;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.logo{
+    margin-top: 10px;
+    width: 12%;
+    border: 1px solid red;
+    float: left;
+}
+.logo a{}
+.logo a img{
+    width: 100%;
+}
+.menu{
+    width: 65%;
+    border: 1px solid red;
+    float: right;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+}
+.menu ul li a{
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 50px;
+    display: inline-block;
+    border-bottom: 1px solid transparent;
+}
+.menu ul li:last-child a{
+    margin-right: 0;
+}
+.menu ul li a:hover{
+    border-bottom: 1px solid #626262;
+}
+/* header end */
+
+/* banner start */
+.banner{}
+.b_images{}
+.b_image img{
+    width: 100%;
+}
+/* banner end */
+
+/* gateway start */
+.gateway{
+    padding: 100px 0;
+}
+.container2{
+    width: 80%;
+    border: 1px solid red;
+    margin: 0 auto;
+}
+.g_content{}
+.c_light{
+    margin: 0;
+    font-family: "Ubuntu", sans-serif;;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #626262;
+}
+.c_title{
+    margin: 20px 0 30px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.c_text{
+    line-height: 24px;
+}
+.g_link{
+    margin-top: 40px;
+    display: block;
+    color: #626262;
+    text-decoration: none;
+}
+/* gateway end */
+
+/* news start */
+.news{
+    background-color: #f0f0f0;
+
+}
+.signup{
+    text-align: center;
+    padding: 70px 0;
+}
+.s_h1{
+    color: #333333;
+    margin-top: 0;
+    margin-bottom: 70px;
+}
+.s_form{
+    position: relative;
+    width: 400px;
+    border: 1px solid red;
+    margin: 0 auto;
+}
+.s_form input{
+    font-family: playfairDisplay-regular;
+    font-size: 14px;
+    color: #626262;
+    width: 345px;
+    height: 45px;
+    border: none;
+    border-bottom: 1px solid #000000;
+    background: transparent;
+    padding-left: 5px;
+    padding-right: 15px;
+}
+.s_form input:focus{
+    outline: 0;
+}
+.s_form button{
+    position: absolute;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    top: 15px;
+    right: 0;
+}
+.s_form button:focus{
+    outline: 0;
+}
+.s_form button img{}
+/* news end */
